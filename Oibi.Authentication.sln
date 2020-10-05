@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oibi.Authentication", "Oibi.Authentication\Oibi.Authentication.csproj", "{351EBCE3-BA32-4B99-954D-B36C342209CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{351EBCE3-BA32-4B99-954D-B36C342209CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{351EBCE3-BA32-4B99-954D-B36C342209CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{351EBCE3-BA32-4B99-954D-B36C342209CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{351EBCE3-BA32-4B99-954D-B36C342209CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88B41887-0C28-4FDE-BCF9-BA81DD7FDD67}
+	EndGlobalSection
+EndGlobal
