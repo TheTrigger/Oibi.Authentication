@@ -11,7 +11,7 @@
     /// <summary>
     /// Login response. <see cref="TData"/> could be your user dto or your error type
     /// </summary>
-    public class LoginResponse<TData> : StateResponse
+    public class LoginResponse<TData> : LoginResponse
     {
         public TData Data { get; set; }
     }
