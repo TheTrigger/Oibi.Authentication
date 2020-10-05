@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oibi.Authentication", "Oibi.Authentication\Oibi.Authentication.csproj", "{351EBCE3-BA32-4B99-954D-B36C342209CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oibi.Authentication.XUnitTest", "Oibi.Authentication.XUnitTest\Oibi.Authentication.XUnitTest.csproj", "{5595B8DA-0233-4DC6-9F98-9FAB0A7CD63C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oibi.Authentication.Demo", "Oibi.Authentication.Demo\Oibi.Authentication.Demo.csproj", "{752EE980-AAD8-4A75-AE9F-9CE9FAA048F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{351EBCE3-BA32-4B99-954D-B36C342209CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{351EBCE3-BA32-4B99-954D-B36C342209CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{351EBCE3-BA32-4B99-954D-B36C342209CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5595B8DA-0233-4DC6-9F98-9FAB0A7CD63C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5595B8DA-0233-4DC6-9F98-9FAB0A7CD63C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5595B8DA-0233-4DC6-9F98-9FAB0A7CD63C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5595B8DA-0233-4DC6-9F98-9FAB0A7CD63C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{752EE980-AAD8-4A75-AE9F-9CE9FAA048F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{752EE980-AAD8-4A75-AE9F-9CE9FAA048F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{752EE980-AAD8-4A75-AE9F-9CE9FAA048F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{752EE980-AAD8-4A75-AE9F-9CE9FAA048F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
