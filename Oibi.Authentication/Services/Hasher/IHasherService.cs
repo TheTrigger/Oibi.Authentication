@@ -1,11 +1,9 @@
 ﻿using Microsoft.AspNetCore.Identity;
-using System;
-using System.Security.Claims;
 
 namespace Oibi.Authentication.Services
 {
     /// <summary>
-    /// Simple password hasher service 
+    /// Simple password hasher service
     /// </summary>
     public interface IHasherService
     {
