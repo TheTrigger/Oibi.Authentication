@@ -2,6 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Version>1.0.1</Version>
+    <Copyright>f.fabrizi91@gmail.com</Copyright>
+    <Authors>f.fabrizi91@gmail.com</Authors>
+    <Company>oibi.dev</Company>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/TheTrigger/Oibi.Authentication.git</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
