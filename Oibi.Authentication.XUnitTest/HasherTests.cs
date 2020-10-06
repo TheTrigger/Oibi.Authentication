@@ -1,5 +1,6 @@
+using Microsoft.AspNetCore.Identity;
 using Oibi.Authentication.Demo;
-using Oibi.Authentication.Services;
+using Oibi.Authentication.Demo.Models;
 using Oibi.TestHelper;
 using Xunit;
 
@@ -8,12 +9,12 @@ namespace Oibi.Authentication.XUnitTest
     public class HasherTests : IClassFixture<ServerFixture<Startup>>
     {
         private readonly ServerFixture<Startup> _serverFixture;
-        private readonly IHasherService _hasherService;
+        private readonly IPasswordHasher<DummyUser> _passwordHasher;
 
         public HasherTests(ServerFixture<Startup> serverFixture)
         {
             _serverFixture = serverFixture;
-            _hasherService = _serverFixture.GetService<IHasherService>();
+            _passwordHasher = _serverFixture.GetService<IPasswordHasher<DummyUser>>();
         }
 
         [Theory]
@@ -22,10 +23,10 @@ namespace Oibi.Authentication.XUnitTest
         [InlineData("")]
         public void Test1(string plainPassword)
         {
-            var o = new object();
+            var o = new DummyUser();
 
-            var hashed = _hasherService.HashPassword(o, plainPassword);
-            var result = _hasherService.VerifyHashedPassword(o, hashed, plainPassword);
+            var hashed = _passwordHasher.HashPassword(o, plainPassword);
+            var result = _passwordHasher.VerifyHashedPassword(o, hashed, plainPassword);
 
             Assert.Equal(Microsoft.AspNetCore.Identity.PasswordVerificationResult.Success, result);
         }

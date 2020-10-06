@@ -1,17 +1,16 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using Oibi.Authentication.Services;
 
 namespace Oibi.Authentication.Extensions
 {
     public static class IServiceCollectionExtensions
     {
         /// <summary>
-        /// Add simple password hasher service to given <see cref="IServiceCollection"/>
+        /// Add default password hasher service to given <see cref="IServiceCollection"/>
         /// </summary>
-        public static IServiceCollection AddPasswordHasher(this IServiceCollection services)
+        public static IServiceCollection AddPasswordHasher<TUser>(this IServiceCollection services) where TUser : class
         {
             services.AddHttpContextAccessor();
-            services.AddSingleton<IHasherService, HasherService>();
+            services.AddIdentityCore<TUser>();
 
             return services;
         }
