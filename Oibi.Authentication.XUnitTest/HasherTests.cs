@@ -18,7 +18,7 @@ namespace Oibi.Authentication.XUnitTest
 
         [Theory]
         [InlineData("password1")]
-        [InlineData("2222qwerty")]
+        [InlineData("dummystring123456789dummystring123456789dummystring123456789dummystring123456789dummystring123456789dummystring123456789")]
         [InlineData("")]
         public void Test1(string plainPassword)
         {
