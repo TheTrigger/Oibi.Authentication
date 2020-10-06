@@ -10,7 +10,7 @@
     <RepositoryUrl>https://github.com/TheTrigger/Oibi.Authentication.git</RepositoryUrl>
     <PackageProjectUrl>https://github.com/TheTrigger/Oibi.Authentication</PackageProjectUrl>
     <PackageTags>authentication</PackageTags>
-    <PackageIcon>authentication.svg</PackageIcon>
+    <PackageIcon>authentication.png</PackageIcon>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
 
